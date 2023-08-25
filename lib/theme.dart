@@ -83,11 +83,10 @@ final custDarkTheme = ThemeData.dark().copyWith(
     )
   ],
   useMaterial3: true,
-  colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
   primaryTextTheme: ThemeData.dark().textTheme.apply(
       // fontFamily: GoogleFonts.notoSans().fontFamily,
       ),
-  scaffoldBackgroundColor: const Color.fromRGBO(26, 26, 26, 1.0),
+  scaffoldBackgroundColor: const Color(0xFF252525), // Color.fromRGBO(26, 26, 26, 1.0),
 );
 
 final custLightTheme = ThemeData.light().copyWith(
@@ -101,11 +100,10 @@ final custLightTheme = ThemeData.light().copyWith(
     )
   ],
   useMaterial3: true,
-  colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
   primaryTextTheme: ThemeData.light().textTheme.apply(
       // fontFamily: GoogleFonts.notoSans().fontFamily,
       ),
-  scaffoldBackgroundColor: const Color.fromRGBO(255, 255, 255, 1.0),
+  scaffoldBackgroundColor: const Color(0xFFF8F8F8), // Color.fromRGBO(255, 255, 255, 1.0),
 );
 
 ///
